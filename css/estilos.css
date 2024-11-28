@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; 
+  }
+
+  .kari {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sele {
+    display: flex;
+    height: 50%; 
+  }
+
+  .dato1, .dato11 {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .dato1 {
+    background-color: #ca4021;
+  }
+
+  .dato11 {
+    background-color: #41138b;
+  }
+
+  .dato2, .dato3 {
+    height: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+
+  .dato2 {
+    background-color: #A0522D; 
+  }
+
+  .dato3 {
+    background-color: #008000; 
+  }
+
+  .right {
+    width: 50%; 
+    background-color: #007BFF; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+  
